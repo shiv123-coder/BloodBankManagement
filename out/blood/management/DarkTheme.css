@@ -1,0 +1,143 @@
+/* ROOT STYLING */
+.root {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 13px;
+    -fx-background-color: linear-gradient(to bottom, #2c003e, #1a001f);
+    /* Magical blood-themed gradient */
+}
+
+/* HEADER STYLING */
+.header-label {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ff4d4d;
+    -fx-alignment: center;
+}
+
+/* SIDE MESSAGE */
+.side-message {
+    -fx-text-fill: #ffaaaa;
+    -fx-font-size: 14px;
+    -fx-font-style: italic;
+}
+
+/* NAVIGATION BAR */
+.nav-bar {
+    -fx-background-color: #2e2e2e;
+    -fx-spacing: 10px;
+    -fx-padding: 10px 20px;
+    -fx-alignment: center;
+}
+
+.nav-button {
+    -fx-background-color: #444444;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+.nav-button:hover {
+    -fx-background-color: #ff4d4d;
+}
+
+/* ADD BUTTON - Unique and Centered */
+.add-button {
+    -fx-background-color: #ff3333;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 50px;
+    -fx-background-radius: 20px;
+    -fx-border-color: #aa0000;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(255, 0, 0, 0.5), 5, 0.1, 0, 2);
+}
+
+.add-button:hover {
+    -fx-background-color: #cc0000;
+}
+
+/* FORM ELEMENTS */
+.form-section {
+    -fx-background-color: #1a1a1a;
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #444;
+    -fx-border-width: 1px;
+}
+
+.label {
+    -fx-text-fill: #eeeeee;
+}
+
+.text-field,
+.combo-box,
+.date-picker {
+    -fx-background-color: #2e2e2e;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #999;
+    -fx-background-radius: 5px;
+    -fx-border-color: #666;
+    -fx-border-radius: 5px;
+    -fx-padding: 6px;
+}
+
+/* TABLEVIEW */
+.table-view {
+    -fx-background-color: #1f1f1f;
+    -fx-control-inner-background: #1f1f1f;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #eeeeee;
+    /* ✅ Updated: lighter background for better contrast */
+}
+
+.table-view .column-header,
+.table-row-cell {
+    -fx-text-fill: white;
+    -fx-padding: 8px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: black;
+    /* ✅ NEW: Black column header text */
+    -fx-font-weight: bold;
+    /* Optional: bold */
+    -fx-font-size: 13px;
+    /* Optional: font size */
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #e63946;
+    -fx-text-fill: white;
+}
+
+/* BLOOD SYMBOL IMAGE */
+.blood-icon {
+    -fx-effect: dropshadow(gaussian, rgba(255, 0, 0, 0.6), 10, 0.3, 0, 2);
+}
+
+/* MISC */
+.section-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ff6666;
+}
+
+.menu-button {
+    -fx-background-color: #D32F2F;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+    -fx-padding: 10 20 10 20;
+}
+
+.menu-button:hover {
+    -fx-background-color: #B71C1C;
+}
