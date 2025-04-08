@@ -54,8 +54,31 @@ Edit
 
 
 
-   🤝 Contributors
+
+
+
+  🤝 Contributors
 Shivshankar Mali
+
+
+
+## 📸 Screenshots
+
+### 🧪 Available Blood  
+![Available Blood](screenshots/available-blood.jpg)
+
+### 🩸 Blood Receiver  
+![Blood Receiver](screenshots/blood-receiver.jpg)
+
+### 🧑‍⚕️ Doctor Details  
+![Doctor Details](screenshots/doctor-details.jpg)
+
+### 🧑‍💉 Donor  
+![Donor](screenshots/donor.jpg)
+
+### 🙋 Employee (Volunteer)  
+![Employee](screenshots/employee.jpg)
+
 
 
 
