@@ -53,10 +53,6 @@ Edit
    bloodmanagement.sql
 
 
-
-
-
-
   🤝 Contributors
 Shivshankar Mali
 
