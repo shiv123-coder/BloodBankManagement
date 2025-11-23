@@ -1,116 +1,124 @@
-🩸 Blood Bank Management System
+# 🩸 Blood Bank Management System  
+A complete **JavaFX-based Blood Bank Management System** designed to manage donors, blood inventory, receivers, doctors, and volunteers with a secure **MySQL backend**.  
+This project features a modular structure, clean UI, and scalable design suitable for academic and real-world organizations.
 
-A complete JavaFX-based Blood Bank Management System designed to manage donors, blood inventory, receivers, doctors, and volunteers with a secure MySQL backend.
-This project features a modular structure, clean UI, and scalable design suitable for academic and real-world use.
+---
 
-🚀 Features
-🔴 Donor Management
+## 🚀 Features
 
-Add, update, search, delete donors
+### 🔴 Donor Management
+- Add, update, search, and delete donor records  
+- Track age, weight, blood group, gender, and last donation date  
 
-Track age, weight, blood group, gender, last donation date
+### 🩸 Blood Request / Receiver Management
+- Manage blood request records  
+- Check availability & update request status automatically  
 
-🩸 Blood Request / Receiver Management
+### 🧑‍⚕️ Doctor Management
+- Add and maintain doctor profiles  
+- Assign responsibilities and roles  
 
-Manage patients requesting blood
+### 🙋 Volunteer / Employee Management
+- Add and manage volunteers or staff members  
 
-Track request status & blood availability
+### 🧪 Blood Inventory Module
+- View available blood units by blood group  
+- Auto-update inventory after donation or blood issue  
 
-🧑‍⚕️ Doctor Management
+### 🎨 Modern JavaFX UI
+- Smooth navigation  
+- Dark-theme based UI with CSS  
 
-Maintain doctor records with assigned roles
+### 🔗 MySQL Integration
+- Secure & fast JDBC-based operations  
+- Clean and optimized database schema  
 
-🙋 Volunteer / Employee Management
+---
 
-Add and manage staff/volunteers
+## 🧰 Technologies Used
 
-🧪 Blood Inventory
+| Component | Version |
+|----------|---------|
+| **Java** | 22 |
+| **JavaFX** | 24 |
+| **MySQL** | 8+ |
+| **MySQL JDBC Driver** | 9.2.0 |
+| **IDE** | VS Code |
 
-View available blood units by type
+---
 
-Auto-update inventory on donation/request
+## 🗂️ Project Structure
 
-🎨 JavaFX UI
-
-Smooth navigation
-
-Dark-themed modern interface
-
-🔗 MySQL Integration
-
-JDBC-based secure and fast data operations
-
-Well-structured database schema
-
-🧰 Technologies Used
-Component	Version
-Java	22
-JavaFX	24
-MySQL	8+
-JDBC Driver	9.2.0
-IDE	VS Code
-🗂️ Project Structure
 Blood Management/
 │── src/
-│   ├── DB/                         # Database handling classes
-│   └── blood/management/           # Controllers, scenes, JavaFX logic
+│ ├── DB/ # Database handling classes
+│ └── blood/management/ # Controllers & JavaFX logic
 │
-│── Images/                         # UI images (blood drop icons, etc.)
-│── lib/                            # MySQL JDBC Connector
-│── out/                            # Compiled .class files
-│── build/                          # NetBeans or optional build folder
-│── DarkTheme.css                   # JavaFX UI styling
-│── bloodmanagement.sql             # Main database schema
-│── blood_SQL.txt                   # Optional SQL dump
-│── compile.bat                     # Windows compile script
-│── run.bat                         # Windows run script
-└── README.md                       # Documentation
+│── Images/ # UI images/icons
+│── lib/ # MySQL JDBC Connector
+│── out/ # Compiled class files
+│── build/ # Optional build folder
+│── DarkTheme.css # JavaFX UI styling
+│── bloodmanagement.sql # Database schema
+│── blood_SQL.txt # Optional SQL dump
+│── compile.bat # Script to compile project
+│── run.bat # Script to run project
+└── README.md # Documentation
 
-🛠️ Setup Instructions (Windows)
-✔️ Requirements
+yaml
+Copy code
 
-Install JDK 22+
+---
 
-Install JavaFX SDK 24+
+## 🛠️ Setup Instructions (Windows)
 
-Install MySQL Server + Workbench
+### ✔️ Requirements
+- Install **JDK 22+**
+- Install **JavaFX SDK 24+**
+- Install **MySQL Server + Workbench**
+- Add Java & JavaFX to **system PATH** (recommended)
 
-Add Java & JavaFX to system PATH (recommended)
+---
 
-📥 Step 1: Import the Database
+## 📥 Step 1: Import the Database
 
-Open MySQL Workbench
-
-Go to File → Open SQL Script
-
-Load the file:
-
+1. Open **MySQL Workbench**  
+2. Go to **File → Open SQL Script**
+3. Select:  
 bloodmanagement.sql
 
+yaml
+Copy code
+4. Run the script to generate all required tables.
 
-Run the script to generate all required tables.
+---
 
-▶️ Step 2: Run the App
+## ▶️ Step 2: Run the Application
 
-You can run the app using either:
-
-Option A: run.bat (recommended)
-
-Just double-click:
-
+### **Option A — Using run.bat (Recommended)**
+Simply double-click:
 run.bat
-📸 Screenshots
-🧪 Available Blood
 
-🩸 Blood Receiver
+yaml
+Copy code
 
-🧑‍⚕️ Doctor Details
+This auto-runs JavaFX with the correct modules.
 
-🧑‍💉 Donor
+---
 
-🙋 Employee (Volunteer)
+## 📸 Screenshots  
+(Add your PNG/JPG files here)
 
-👨‍💻 Author
+- 🧪 Available Blood  
+- 🩸 Blood Receiver Management  
+- 🧑‍⚕️ Doctor Details  
+- 🧑‍💉 Donor Module  
+- 🙋 Volunteer / Employee Module  
 
-Shivshankar Mali
-Blood Bank Management System — JavaFX + MySQL Project
+---
+
+## 👨‍💻 Author
+**Shivshankar Mali**  
+_Blood Bank Management System — JavaFX + MySQL Project_
+
+---
