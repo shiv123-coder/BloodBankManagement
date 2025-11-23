@@ -1,82 +1,116 @@
-# 🩸 Blood Bank Management System
+🩸 Blood Bank Management System
 
-A complete JavaFX-based Blood Bank Management System that enables seamless management of donors, blood requests, doctors, and volunteers. This system connects with a MySQL database to handle real-time data securely and efficiently.
+A complete JavaFX-based Blood Bank Management System designed to manage donors, blood inventory, receivers, doctors, and volunteers with a secure MySQL backend.
+This project features a modular structure, clean UI, and scalable design suitable for academic and real-world use.
 
-## 📌 Features
+🚀 Features
+🔴 Donor Management
 
-- Add and manage Donor information with:
-  - Name, Age, Weight, Gender, Last Donated Date, etc.
-- Blood Request (Receiver) management
-- Doctor details management
-- Volunteer (Employee) records
-- Available Blood Inventory overview
-- Clean and responsive JavaFX UI
-- MySQL backend integration
+Add, update, search, delete donors
 
----
+Track age, weight, blood group, gender, last donation date
 
-## 🧰 Technologies Used
+🩸 Blood Request / Receiver Management
 
-| Technology | Version     |
-|------------|-------------|
-| Java       | 22          |
-| JavaFX     | 24          |
-| MySQL      | 8+ (JDBC)   |
-| IDE        | VS Code     |
+Manage patients requesting blood
 
----
+Track request status & blood availability
 
-## 🗂️ Project Structure
+🧑‍⚕️ Doctor Management
 
-Blood Management/ │ ├── src/ # All Java source files │ └── blood/management/ # JavaFX controllers and views │ ├── Images/ # Blood drop images ├── lib/ # MySQL JDBC Connector ├── out/ # Compiled output (.class) ├── build/ # (Optional NetBeans artifacts) ├── bloodmanagement.sql # SQL schema for database ├── blood_SQL.txt # Optional SQL dump ├── DarkTheme.css # UI styling ├── compile.bat # Compile the project (Windows) ├── run.bat # Run the project (Windows) └── README.md # Project documentation
+Maintain doctor records with assigned roles
 
-yaml
-Copy
-Edit
+🙋 Volunteer / Employee Management
 
----
+Add and manage staff/volunteers
 
-## 🛠️ Setup & Run (Windows)
+🧪 Blood Inventory
 
-### 1. ✅ Install Requirements
+View available blood units by type
 
-- Java JDK 22+
-- JavaFX SDK 24+
-- MySQL Server & Workbench
-- VS Code with Java and JavaFX extensions
+Auto-update inventory on donation/request
 
-### 2. ✅ Import the Database
+🎨 JavaFX UI
 
-1. Open MySQL Workbench
-2. Run the SQL file:  
-   ```bash
-   bloodmanagement.sql
+Smooth navigation
+
+Dark-themed modern interface
+
+🔗 MySQL Integration
+
+JDBC-based secure and fast data operations
+
+Well-structured database schema
+
+🧰 Technologies Used
+Component	Version
+Java	22
+JavaFX	24
+MySQL	8+
+JDBC Driver	9.2.0
+IDE	VS Code
+🗂️ Project Structure
+Blood Management/
+│── src/
+│   ├── DB/                         # Database handling classes
+│   └── blood/management/           # Controllers, scenes, JavaFX logic
+│
+│── Images/                         # UI images (blood drop icons, etc.)
+│── lib/                            # MySQL JDBC Connector
+│── out/                            # Compiled .class files
+│── build/                          # NetBeans or optional build folder
+│── DarkTheme.css                   # JavaFX UI styling
+│── bloodmanagement.sql             # Main database schema
+│── blood_SQL.txt                   # Optional SQL dump
+│── compile.bat                     # Windows compile script
+│── run.bat                         # Windows run script
+└── README.md                       # Documentation
+
+🛠️ Setup Instructions (Windows)
+✔️ Requirements
+
+Install JDK 22+
+
+Install JavaFX SDK 24+
+
+Install MySQL Server + Workbench
+
+Add Java & JavaFX to system PATH (recommended)
+
+📥 Step 1: Import the Database
+
+Open MySQL Workbench
+
+Go to File → Open SQL Script
+
+Load the file:
+
+bloodmanagement.sql
 
 
-  🤝 Contributors
+Run the script to generate all required tables.
+
+▶️ Step 2: Run the App
+
+You can run the app using either:
+
+Option A: run.bat (recommended)
+
+Just double-click:
+
+run.bat
+📸 Screenshots
+🧪 Available Blood
+
+🩸 Blood Receiver
+
+🧑‍⚕️ Doctor Details
+
+🧑‍💉 Donor
+
+🙋 Employee (Volunteer)
+
+👨‍💻 Author
+
 Shivshankar Mali
-
-
-
-## 📸 Screenshots
-
-### 🧪 Available Blood  
-![Available Blood](screenshots/available-blood.jpg)
-
-### 🩸 Blood Receiver  
-![Blood Receiver](screenshots/blood-receiver.jpg)
-
-### 🧑‍⚕️ Doctor Details  
-![Doctor Details](screenshots/doctor-details.jpg)
-
-### 🧑‍💉 Donor  
-![Donor](screenshots/donor.jpg)
-
-### 🙋 Employee (Volunteer)  
-![Employee](screenshots/employee.jpg)
-
-
-
-
-
-
+Blood Bank Management System — JavaFX + MySQL Project
