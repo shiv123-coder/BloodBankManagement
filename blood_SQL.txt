@@ -85,3 +85,8 @@ CREATE TABLE TransactionTable(
     TYP VARCHAR(30) NOT NULL,
     PRIMARY KEY(Id)
 );
+
+
+SET FOREIGN_KEY_CHECKS = 0;
+TRUNCATE TABLE tableName;   -- replace tableName with your actual table
+SET FOREIGN_KEY_CHECKS = 1;
